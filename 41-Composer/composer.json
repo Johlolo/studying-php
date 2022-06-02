@@ -1,0 +1,20 @@
+{
+    "name": "yagami/composer",
+    "description": "Projeto Teste Aula PHP",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Yagami\\Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Johannes Pablo Rey",
+            "email": "johannespablorey@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "monolog/monolog":"1.0.*"
+    }
+}
